@@ -1,0 +1,40 @@
+/* Main Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #121212; /* Light background color */
+    color: white;
+  }
+  
+  /* Content Styling */
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  /* Image Styling */
+  .hero-img {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .hero-img {
+      max-width: 100%;
+    }
+  }
+  
