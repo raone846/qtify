@@ -8,27 +8,26 @@ function RightArrow() {
         minWidth: '40px',
         minHeight: '40px',
         borderRadius: '50%',
-        backgroundColor: 'transparent',
+        backgroundColor: '#34C94B', // Green fill for the button
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         padding: '0',
         '&:hover': {
-          backgroundColor: '#2F2F2F', // Optional: Add hover background for better UX
+          backgroundColor: '#2FA03E', // Slightly darker green on hover
         },
         svg: {
-          fill: '#34C94B', // Apply color to the SVG
-          width: '32px',
-          height: '32px',
+          width: '24px',
+          height: '24px',
         },
       }}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        fill="#34C94B"
+        fill="#FFFFFF" // White icon color
         viewBox="0 0 24 24"
-        width="32px"
-        height="32px"
+        width="24px"
+        height="24px"
       >
         <path d="M8.59 16.59 10 18l6-6-6-6-1.41 1.41L13.17 12z" />
       </svg>

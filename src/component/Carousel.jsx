@@ -13,10 +13,10 @@ function Carousel({ data, renderItem, uniqueId }) {
         className={`swiper-button-prev-${uniqueId}`}
         style={{
           position: 'absolute',
-          left: '0px', // Adjust distance from the carousel's edge
+          left: '-15px', // Adjust distance from the carousel's edge
           top: '50%',
           transform: 'translateY(-50%)',
-          zIndex: 5,
+          zIndex: 10,
           cursor: 'pointer',
         }}
       >
@@ -26,7 +26,7 @@ function Carousel({ data, renderItem, uniqueId }) {
         className={`swiper-button-next-${uniqueId}`}
         style={{
           position: 'absolute',
-          right: '10px', // Adjust distance from the carousel's edge
+          right: '15px', // Adjust distance from the carousel's edge
           top: '50%',
           transform: 'translateY(-50%)',
           zIndex: 10,
