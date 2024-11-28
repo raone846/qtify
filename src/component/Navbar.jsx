@@ -39,6 +39,7 @@ function Navbar() {
         <TextField 
           id="search" 
           label="search" 
+          placeholder="search"
           variant="outlined" 
           size="small"
           sx={{ 
